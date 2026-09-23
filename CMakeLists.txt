@@ -39,8 +39,8 @@ juce_add_plugin(NeonNoiseGate
 
 target_sources(NeonNoiseGate
     PRIVATE
-        Source/PluginProcessor.cpp
-        Source/PluginEditor.cpp
+        PluginProcessor.cpp
+        PluginEditor.cpp
 )
 
 target_compile_definitions(NeonNoiseGate
